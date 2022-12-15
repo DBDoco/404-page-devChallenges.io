@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img {
+    height: 447.4263916015625px;
+    width: 539.2236938476562px;
+}
+
+h1 {
+    width: 586px;
+    height: 190px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    ;
+    color: #333333;
+    padding-bottom: 36px;
+}
+
+button {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-div {
+    margin: 40px;
+}
+
+.name {
+    font-family: Inconsolata;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+    color: #333333;
+}
+
+.text {
+    width: 381px;
+    height: 108px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+    padding-bottom: 64px;
+    letter-spacing: 0.1em;
+}
+
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20vh;
+    margin-bottom: 10px;
+}
+
+
+.text-section {
+    margin-left: 120px;
+}
+
+.footer{
+    display: block;
+    margin:0 auto;
+    width: 50%;
+    padding-top: 200px;
+}
+
+.info {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .flex-div {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .text-section {
+        padding: 0;
+        margin: 0;
+    }
+
+    .image-section {
+        margin-bottom: 60px;
+    }
+
+    .text {
+        margin-bottom: 66px;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+}
