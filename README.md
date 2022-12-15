@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://639b2fc8a8f0b92361bd6f3f--sensational-queijadas-606de6.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/85bcweN7Bl89ZiS49p4k">
       Solution
     </a>
     <span> | </span>
